@@ -1,0 +1,58 @@
+//Create a variable named firstFavNumb and store your favorite number
+let firstFavNumb = 23;
+//Create a variable named secondFavNumb and store your second favorite number
+let secondFavNumb = 30;
+
+//COMPARISON //
+
+//Greater Than
+console.log(firstFavNumb > secondFavNumb); //false
+//Less Than
+console.log(firstFavNumb < secondFavNumb); //true
+
+// RELATIONAL //
+
+//Greater Than or Equal to
+console.log(firstFavNumb >= secondFavNumb); //false
+//Less Than or Equal to
+console.log(firstFavNumb <= secondFavNumb); //true
+//Strict Equality (===)
+console.log(firstFavNumb === secondFavNumb); //false
+//Loose Equality (==)
+console.log(firstFavNumb == secondFavNumb); //false
+//Strict Inequality (!==)
+console.log(firstFavNumb !== secondFavNumb); //true
+//Loose Inequality (!=)
+console.log(firstFavNumb != secondFavNumb); //true
+
+ // LOGICAL OPERATORS //
+
+ //AND
+let x = 23;
+let y = 44;
+let z = 30;
+
+ console.log(x < y && y < z); //true
+ console.log(x > y && y > z); //false
+
+//OR
+let a = "Hard";
+let b = "Soft";
+let c = "Hard";
+
+console.log(a === b || a === c); //true
+console.log(a === b || b === c); //false
+
+//NOT
+let ismorning = true;
+let isNight = false;
+
+console.log(!isDay); //false
+console.log(!isNight); //true
+
+console.log(!isDay && isNight); //false
+console.log(isDay && !isNight); //true
+console.log(isDay || isNight); //true
+console.log(!isDay || isNight); //false
+console.log(isDay == isNight); //false
+console.log(isDay == !isNight); //
